@@ -1,0 +1,92 @@
+body {
+    font-family: 'Splash', cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: aliceblue;
+    background-color: rgb(20, 1, 33);
+
+}
+
+button {
+    margin-right: 10px;
+    border-style: solid;
+    text-align: center;
+    color: rgb(236, 110, 0);
+    border: 1px solid rgb(236, 110, 0);
+    background-color: rgb(10, 0, 23);
+    transition: all 0.25s;
+    cursor: pointer;
+    transition: color 200ms, box-shadow 200ms, transform 200ms, border-color 200ms
+}
+
+.row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button:hover {
+    color: rgb(172, 215, 172);
+    border-color: rgb(172, 215, 172);
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(172, 215, 172);
+    transform: translatey(-4px);
+}
+
+h2 {
+    margin-left: 1em;
+    margin-top: 4em;
+}
+
+p {
+    margin-left: 2em;
+}
+
+h1 {
+    margin-left: 1em;
+    margin-top: 10px;
+    position: relative;
+    top: 50px;
+    display: inline-block;
+    font-size: 50px;
+}
+
+h1 span {
+    position: relative;
+    transition: color 200ms;
+}
+
+.n2 {
+    margin-right: 20px;
+    right: 10px;
+}
+
+.n4 {
+    right: 10px;
+}
+
+.n5 {
+    right: 20px;
+}
+
+.n6 {
+    right: 30px;
+}
+
+.n7 {
+    right: 40px;
+}
+
+.n8 {
+    right: 50px;
+}
+
+.n9 {
+    right: 60px;
+}
+
+.n10 {
+    right: 70px;
+}
+
+.n11 {
+    right: 80px;
+}
